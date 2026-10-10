@@ -1,0 +1,140 @@
+{
+  "title": "Flood Disaster Situation Report (Job ID: job_nepal_2026_case)",
+  "executive_summary": "Emergency situational report for flood event on unknown (Job: job_nepal_2026_case). AI segmentation estimates 43.8597 km² of inundation (10.1% of AOI). Spatial infrastructure overlay identified an estimated 1055 potentially affected buildings and 97 estimated blocked road segments. Topological network analysis indicates 2 settlements are strictly flood-isolated from their primary administrative towns.",
+  "sections": [
+    {
+      "section_id": "situation_summary",
+      "title": "1. Situation Summary",
+      "content": "Emergency situational report for flood event on unknown (Job: job_nepal_2026_case). AI segmentation estimates 43.8597 km² of inundation (10.1% of AOI). Spatial infrastructure overlay identified an estimated 1055 potentially affected buildings and 97 estimated blocked road segments. Topological network analysis indicates 2 settlements are strictly flood-isolated from their primary administrative towns.",
+      "key_metrics": {
+        "job_id": "job_nepal_2026_case",
+        "flood_date": "unknown",
+        "status": "completed"
+      },
+      "caveats": []
+    },
+    {
+      "section_id": "flood_extent",
+      "title": "2. Flood Extent",
+      "content": "Floodwater extents derived by FloodUNet semantic segmentation measure an estimated 43.8597 km² (10.1% of the evaluated Area of Interest), comprising 147 discrete flood regions.",
+      "key_metrics": {
+        "flood_area_km2": 43.8597,
+        "flood_percentage": 10.1,
+        "status": "estimated"
+      },
+      "caveats": [
+        "Water surface area represents model-detected radar backscatter drops; subject to vegetation canopy attenuation."
+      ]
+    },
+    {
+      "section_id": "infrastructure_exposure",
+      "title": "3. Infrastructure Exposure",
+      "content": "Spatial intersection analysis identified an estimated 1055 potentially affected buildings (1027 heavily exposed with >=50% overlap), 170 affected road segments (47.348 km of roadway intersected), and 7 potentially affected bridges.",
+      "key_metrics": {
+        "buildings_affected": 1055,
+        "roads_affected": 170,
+        "bridges_affected": 7
+      },
+      "caveats": [
+        "Spatial overlap represents geodetic exposure, not confirmed structural destruction or collapse."
+      ]
+    },
+    {
+      "section_id": "road_connectivity",
+      "title": "4. Road Connectivity",
+      "content": "Topological graph analysis over 10043 road segments identified 97 estimated blocked edges (flood intersection >= 50%) and 224 partially affected edges (< 50%).",
+      "key_metrics": {
+        "total_edges": 10043,
+        "blocked_edges": 97,
+        "partially_affected": 224
+      },
+      "caveats": [
+        "Edges classified as 'estimated_blocked' are impassable in the network model; physical passability requires ground verification."
+      ]
+    },
+    {
+      "section_id": "settlement_isolation",
+      "title": "5. Settlement Isolation",
+      "content": "Accessibility analysis evaluated settlement reachability to primary administrative centers: 2 settlements are strictly flood-isolated (connected pre-event, severed post-flood); 41 settlements lacked pre-event road connectivity and are NOT attributed to flood impact; 0 connected settlements face vehicular detours.",
+      "key_metrics": {
+        "flood_isolated": 2,
+        "pre_existingly_disconnected": 41,
+        "minor_detour": 0,
+        "major_detour": 0
+      },
+      "caveats": [
+        "Pre-existing network disconnections are strictly excluded from flood isolation statistics."
+      ]
+    },
+    {
+      "section_id": "hospital_accessibility",
+      "title": "6. Hospital Accessibility",
+      "content": "Healthcare network routing determined that 172 settlements retain vehicular access to a hospital, while 2 settlements lost baseline hospital access due to estimated blocked road segments.",
+      "key_metrics": {
+        "access_preserved": 172,
+        "access_lost": 2
+      },
+      "caveats": [
+        "Evaluates road network path reachability only; does not claim hospital operational status, damage, or bed availability."
+      ]
+    },
+    {
+      "section_id": "change_zones",
+      "title": "7. Possible Change/Debris Zones",
+      "content": "Identified 291 candidate terrain change zones outside primary floodwater extents based on SAR backscatter drops.",
+      "key_metrics": {
+        "change_zone_count": 291
+      },
+      "caveats": [
+        "Probabilistic terrain change candidate requiring field validation; not confirmed debris."
+      ]
+    },
+    {
+      "section_id": "data_sources",
+      "title": "8. Data Sources",
+      "content": "Satellite Data: European Space Agency (ESA) Copernicus Sentinel-1 SAR and Sentinel-2 MSI via Copernicus Data Space Ecosystem (CDSE).\nInfrastructure Baseline: OpenStreetMap pre-event roads, buildings, and bridges.\nTraining Baseline: Kuro Siwo Benchmark Dataset (NeurIPS 2024 / Orion-AI-Lab).",
+      "key_metrics": {
+        "attribution": [
+          "© Copernicus Sentinel data (2026)",
+          "© OpenStreetMap contributors",
+          "Kuro Siwo dataset / Orion-AI-Lab"
+        ]
+      },
+      "caveats": []
+    },
+    {
+      "section_id": "methodology",
+      "title": "9. Methodology",
+      "content": "Pipeline: Pre/Post satellite discovery -> Orbit-matched clipping -> Calibrated decibel radiometric differencing -> FloodUNet 4-stage residual semantic segmentation -> Geodesic polygon extraction -> Spatial exposure overlay against pre-event OSM infrastructure -> NetworkX topological graph routing with Dijkstra shortest-path reachability.",
+      "key_metrics": {},
+      "caveats": []
+    },
+    {
+      "section_id": "limitations",
+      "title": "10. Limitations",
+      "content": "- All infrastructure exposure estimates are derived from spatial overlays; not confirmed physical damage.\n- Road network accessibility uses topological graph models with distance weighting; does not account for real-time traffic or debris velocity.\n- Settlements and hospitals reflect pre-event OpenStreetMap metadata without independent population censuses.",
+      "key_metrics": {},
+      "caveats": []
+    },
+    {
+      "section_id": "validation_notes",
+      "title": "11. Validation Notes",
+      "content": "Copernicus Emergency Management Service activation EMSR927 is strictly reserved as an external post-event validation benchmark and is NOT used as an analysis input. System predictions are independent of published maps.",
+      "key_metrics": {},
+      "caveats": []
+    }
+  ],
+  "metadata": {
+    "report_id": "rep_job_nepal_2026_case_en_1791488068",
+    "job_id": "job_nepal_2026_case",
+    "generated_at": "2026-10-08T19:34:28.865240Z",
+    "language": "en",
+    "report_status": "fallback",
+    "llm_used": false,
+    "model_name": null,
+    "structured_result_version": "1.0.0",
+    "data_status": "calibrated_raster_available",
+    "limitations_present": true
+  },
+  "disclaimer": "This report is generated from satellite observations and OpenStreetMap road network models. All damage, inundation, and road blockage statements represent geodetic estimates, not confirmed physical ground truth or structural destruction."
+}

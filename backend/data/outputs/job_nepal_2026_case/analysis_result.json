@@ -1,0 +1,170 @@
+{
+  "job_id": "job_nepal_2026_case",
+  "overall_status": "completed",
+  "source_data_status": "calibrated_raster_available",
+  "version": "1.0.0",
+  "created_at": "2026-10-08T19:34:28.859926Z",
+  "metadata": {
+    "job_id": "job_nepal_2026_case",
+    "aoi": {
+      "type": "Polygon",
+      "coordinates": []
+    },
+    "flood_date": "unknown",
+    "processing_timestamp": "2026-10-08T19:34:28.859899Z",
+    "report_language": "en",
+    "source_data_status": "calibrated_raster_available"
+  },
+  "satellite": {
+    "status": "available",
+    "sentinel_1_used": true,
+    "sentinel_2_used": true,
+    "pre_event_scene": "S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_DC16.SAFE",
+    "post_event_scene": "S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_2C5B.SAFE",
+    "orbit_direction": "DESCENDING",
+    "relative_orbit": 121,
+    "acquisition_dates": [
+      "S1D_IW_GRDH_1SDV_20260819T001036_20260819T001101_004187_007ABD_DC16.SAFE",
+      "S1D_IW_GRDH_1SDV_20260831T001037_20260831T001102_004362_0080EC_2C5B.SAFE"
+    ],
+    "data_availability": "available",
+    "reason": null
+  },
+  "segmentation": {
+    "status": "estimated",
+    "model_name": "flood_unet_s1",
+    "model_version": "1.0.0",
+    "training_dataset": "Kuro Siwo Benchmark (NeurIPS 2024)",
+    "flood_area_km2": 43.8597,
+    "flood_percentage": 10.1,
+    "flood_pixel_count": 46681,
+    "polygon_count": 147,
+    "confidence_information": "Pixel-level sigmoid inference over multi-temporal SAR dB",
+    "reason": null
+  },
+  "geospatial": {
+    "status": "estimated",
+    "flood_region_count": 147,
+    "affected_buildings": {
+      "total": 77889,
+      "potentially_affected": 28,
+      "heavily_affected": 1027,
+      "unaffected": 76834
+    },
+    "affected_roads": {
+      "total_segments": 5483,
+      "potentially_blocked": 97,
+      "heavily_affected": 73,
+      "affected_length_km": 47.348
+    },
+    "affected_bridges": {
+      "total": 156,
+      "potentially_affected": 0,
+      "heavily_affected": 7
+    },
+    "change_zone_count": 291,
+    "estimated_exposure_metrics": {
+      "flooded_area_km2": 43.85967,
+      "flooded_percentage": 4.452
+    },
+    "reason": null
+  },
+  "connectivity": {
+    "status": "estimated",
+    "road_count": 10043,
+    "blocked_road_count": 97,
+    "partially_affected_road_count": 224,
+    "isolated_settlement_count": 2,
+    "flood_isolated_settlement_count": 2,
+    "pre_existingly_disconnected_count": 41,
+    "hospital_access_lost_count": 2,
+    "hospital_access_preserved_count": 172,
+    "detour_statistics": {
+      "minor_detour": 0,
+      "major_detour": 0,
+      "no_change": 166
+    },
+    "reason": null
+  },
+  "provenance": {
+    "satellite_sources": [
+      "Copernicus Sentinel-1 SAR",
+      "Copernicus Sentinel-2 MSI"
+    ],
+    "osm_source": "OpenStreetMap contributors (Pre-event infrastructure baseline)",
+    "model_source": "FloodUNet (PyTorch 4-stage residual U-Net)",
+    "training_dataset": "Kuro Siwo Benchmark (NeurIPS 2024 / Orion-AI-Lab)",
+    "attribution_information": [
+      "\u00a9 Copernicus Sentinel data (2026)",
+      "\u00a9 OpenStreetMap contributors",
+      "Kuro Siwo dataset / Orion-AI-Lab"
+    ],
+    "validation_sources": [
+      "Copernicus Emergency Management Service (EMSR927 - validation only)"
+    ],
+    "emsr927_note": "Copernicus EMSR927 is strictly reserved as an external post-event validation reference and is NOT an analysis input."
+  },
+  "limitations": [
+    "All infrastructure exposure estimates are derived from spatial overlays; not confirmed physical damage.",
+    "Road network accessibility uses topological graph models with distance weighting; does not account for real-time traffic or debris velocity.",
+    "Settlements and hospitals reflect pre-event OpenStreetMap metadata without independent population censuses."
+  ],
+  "facts": {
+    "satellite_data_available": {
+      "value": true,
+      "status": "verified",
+      "source": "Module 2/3 Satellite Router",
+      "method": null,
+      "reason": null
+    },
+    "flood_area_km2": {
+      "value": 43.8597,
+      "status": "estimated",
+      "source": "Module 4 FloodUNet",
+      "method": "Geodesic metric area integration from GeoTIFF mask",
+      "reason": null
+    },
+    "flood_percentage": {
+      "value": 10.1,
+      "status": "estimated",
+      "source": "Module 4 FloodUNet",
+      "method": "Flooded pixels / Total valid pixels in AOI",
+      "reason": null
+    },
+    "affected_buildings": {
+      "value": 1055,
+      "status": "estimated",
+      "source": "Module 5 Geospatial Service",
+      "method": "Spatial overlap of OSM buildings with flood polygons",
+      "reason": null
+    },
+    "affected_roads": {
+      "value": 170,
+      "status": "estimated",
+      "source": "Module 5 Geospatial Service",
+      "method": "Geodesic metric intersection of road LineStrings with flood polygons",
+      "reason": null
+    },
+    "blocked_roads": {
+      "value": 97,
+      "status": "estimated",
+      "source": "Module 6 Connectivity Service",
+      "method": "Threshold-based road edge pruning (>= 50% flood overlap)",
+      "reason": null
+    },
+    "flood_isolated_settlements": {
+      "value": 2,
+      "status": "estimated",
+      "source": "Module 6 Connectivity Service",
+      "method": "Shortest-path reachability comparison (baseline connected AND post-flood disconnected)",
+      "reason": null
+    },
+    "hospital_access_lost": {
+      "value": 2,
+      "status": "estimated",
+      "source": "Module 6 Connectivity Service",
+      "method": "Shortest-path hospital reachability comparison (baseline access AND post-flood lost)",
+      "reason": null
+    }
+  }
+}

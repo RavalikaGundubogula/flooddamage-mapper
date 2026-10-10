@@ -1,0 +1,43 @@
+{
+  "model_name": "test_smoke_model",
+  "architecture": "FloodUNet",
+  "checkpoint_path": "C:\\Users\\gunda\\OneDrive\\Documents\\Desktop\\ALL\\Amazon_Multi-Model\\backend\\data\\models\\test_smoke_model.pt",
+  "parameters_count": 7763329,
+  "in_channels": 4,
+  "dataset_dir": "C:\\Users\\gunda\\AppData\\Local\\Temp\\tmptooi0b1w",
+  "dataset_source": "kuro_siwo_local",
+  "epochs": 2,
+  "best_val_loss": 0.6322,
+  "val_metrics": {
+    "iou": 0.3706,
+    "dice_score": 0.5408,
+    "precision": 0.3706,
+    "recall": 1.0
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5932,
+      "val_loss": 0.6361,
+      "metrics": {
+        "iou": 0.3706,
+        "dice_score": 0.5408,
+        "precision": 0.3706,
+        "recall": 1.0
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.399,
+      "val_loss": 0.6322,
+      "metrics": {
+        "iou": 0.3706,
+        "dice_score": 0.5408,
+        "precision": 0.3706,
+        "recall": 1.0
+      }
+    }
+  ],
+  "duration_seconds": 7.85,
+  "trained_at": "2026-10-05T17:44:18.273118+00:00"
+}

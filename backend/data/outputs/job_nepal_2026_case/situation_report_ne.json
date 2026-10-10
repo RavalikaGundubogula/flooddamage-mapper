@@ -1,0 +1,134 @@
+{
+  "title": "बाढी प्रकोप स्थिति प्रतिवेदन (कार्य ID: job_nepal_2026_case)",
+  "executive_summary": "unknown को बाढी प्रकोपको लागि आपतकालीन स्थिति प्रतिवेदन (कार्य: job_nepal_2026_case)। AI खण्डीकरणले अनुमानित 43.8597 वर्ग कि.मी. जलमग्न भएको देखाउँछ (AOI को 10.1%)। स्थानिक पूर्वाधार विश्लेषणले अनुमानित 1055 सम्भावित प्रभावित भवनहरू र 97 अनुमानित अवरुद्ध सडक खण्डहरू पहिचान गरेको छ। सञ्जाल विश्लेषणले देखाउँछ कि 2 बस्तीहरू तिनीहरूको प्रमुख प्रशासनिक सहरहरूबाट पूर्ण रूपमा बाढीका कारण सम्पर्कविहीन भएका छन्।",
+  "sections": [
+    {
+      "section_id": "situation_summary",
+      "title": "१. स्थिति सारांश (Situation Summary)",
+      "content": "unknown को बाढी प्रकोपको लागि आपतकालीन स्थिति प्रतिवेदन (कार्य: job_nepal_2026_case)। AI खण्डीकरणले अनुमानित 43.8597 वर्ग कि.मी. जलमग्न भएको देखाउँछ (AOI को 10.1%)। स्थानिक पूर्वाधार विश्लेषणले अनुमानित 1055 सम्भावित प्रभावित भवनहरू र 97 अनुमानित अवरुद्ध सडक खण्डहरू पहिचान गरेको छ। सञ्जाल विश्लेषणले देखाउँछ कि 2 बस्तीहरू तिनीहरूको प्रमुख प्रशासनिक सहरहरूबाट पूर्ण रूपमा बाढीका कारण सम्पर्कविहीन भएका छन्।",
+      "key_metrics": {
+        "job_id": "job_nepal_2026_case",
+        "flood_date": "unknown",
+        "status": "completed"
+      },
+      "caveats": []
+    },
+    {
+      "section_id": "flood_extent",
+      "title": "२. बाढीको फैलावट (Flood Extent)",
+      "content": "FloodUNet मोडेलद्वारा अनुमान गरिएको बाढीको फैलावट 43.8597 वर्ग कि.मी. छ (विश्लेषण क्षेत्रको 10.1%), जसमा 147 छुट्टाछुट्टै बाढी क्षेत्रहरू समावेश छन्।",
+      "key_metrics": {
+        "flood_area_km2": 43.8597,
+        "flood_percentage": 10.1,
+        "status": "estimated"
+      },
+      "caveats": [
+        "पानीको सतह मोडेलले पत्ता लगाएको रडार ब्याकस्क्याटर ड्रपहरूमा आधारित छ; वनस्पति आवरणले प्रभाव पार्न सक्छ।"
+      ]
+    },
+    {
+      "section_id": "infrastructure_exposure",
+      "title": "३. पूर्वाधार जोखिम (Infrastructure Exposure)",
+      "content": "स्थानिक प्रतिच्छेदन विश्लेषणले अनुमानित 1055 सम्भावित प्रभावित भवनहरू (1027 भवनहरूमा >=५०% जलमग्नता), 170 प्रभावित सडक खण्डहरू (47.348 कि.मी. सडक जलमग्न), र 7 सम्भावित प्रभावित पुलहरू पहिचान गरेको छ।",
+      "key_metrics": {
+        "buildings_affected": 1055,
+        "roads_affected": 170,
+        "bridges_affected": 7
+      },
+      "caveats": [
+        "स्थानिक ओभरल्यापले जोखिम अनुमानलाई प्रतिनिधित्व गर्दछ, भौतिक क्षति वा विनाश होइन।"
+      ]
+    },
+    {
+      "section_id": "road_connectivity",
+      "title": "४. सडक सञ्जाल पहुँच (Road Connectivity)",
+      "content": "10043 सडक खण्डहरूको सञ्जाल विश्लेषणले 97 अनुमानित अवरुद्ध खण्डहरू (बाढी प्रतिच्छेदन >= ५०%) र 224 आंशिक प्रभावित खण्डहरू (< ५०%) पहिचान गरेको छ।",
+      "key_metrics": {
+        "total_edges": 10043,
+        "blocked_edges": 97,
+        "partially_affected": 224
+      },
+      "caveats": [
+        "'अनुमानित अवरुद्ध' खण्डहरू मोडेलमा आधारित छन्; जमिनमा भौतिक प्रमाणीकरण आवश्यक छ।"
+      ]
+    },
+    {
+      "section_id": "settlement_isolation",
+      "title": "५. बस्ती सम्पर्कविहीनता (Settlement Isolation)",
+      "content": "बस्ती पहुँच विश्लेषण: 2 बस्तीहरू बाढीका कारण पूर्ण रूपमा सम्पर्कविहीन छन्; 41 बस्तीहरू बाढीअघि नै सडक सञ्जालमा जोडिएका थिएनन् र तिनीहरूलाई बाढीको प्रभाव मानिएको छैन; 0 बस्तीहरूले वैकल्पिक लामो बाटो प्रयोग गर्नुपरेको छ।",
+      "key_metrics": {
+        "flood_isolated": 2,
+        "pre_existingly_disconnected": 41,
+        "minor_detour": 0,
+        "major_detour": 0
+      },
+      "caveats": [
+        "पहिलेदेखि नै सडक नपुगेका बस्तीहरूलाई बाढी-सम्पर्कविहीन तथ्याङ्कमा समावेश गरिएको छैन।"
+      ]
+    },
+    {
+      "section_id": "hospital_accessibility",
+      "title": "६. अस्पताल पहुँच (Hospital Accessibility)",
+      "content": "स्वास्थ्य पहुँच विश्लेषणले देखाएको छ कि 172 बस्तीहरूको अस्पताल पहुँच सुरक्षित छ, भने 2 बस्तीहरूले अवरुद्ध सडकका कारण अस्पताल पहुँच गुमाएका छन्।",
+      "key_metrics": {
+        "access_preserved": 172,
+        "access_lost": 2
+      },
+      "caveats": [
+        "यो सडक सञ्जाल पहुँचको विश्लेषण मात्र हो; अस्पतालको भौतिक अवस्था वा शय्या उपलब्धताको दाबी गर्दैन।"
+      ]
+    },
+    {
+      "section_id": "change_zones",
+      "title": "७. सम्भावित भू-परिवर्तन क्षेत्रहरू (Possible Change Zones)",
+      "content": "SAR ब्याकस्क्याटर परिवर्तनका आधारमा 291 सम्भावित भू-परिवर्तन क्षेत्रहरू पहिचान गरिएका छन्।",
+      "key_metrics": {
+        "change_zone_count": 291
+      },
+      "caveats": [
+        "यी सम्भावित क्षेत्रहरू हुन् जसलाई स्थलगत प्रमाणीकरण आवश्यक छ।"
+      ]
+    },
+    {
+      "section_id": "data_sources",
+      "title": "८. तथ्याङ्क स्रोतहरू (Data Sources)",
+      "content": "उपग्रह तथ्याङ्क: युरोपेली अन्तरिक्ष एजेन्सी (ESA) कोपर्निकस सेन्टिनेल-१ SAR र सेन्टिनेल-२ MSI।\nपूर्वाधार तथ्याङ्क: ओपनस्ट्रिटम्याप (OSM) पूर्व-प्रकोप सडक, भवन, र पुलहरू।\nप्रशिक्षण तथ्याङ्क: कुरो सिवो बेन्चमार्क डाटासेट (NeurIPS २०२४ / Orion-AI-Lab)।",
+      "key_metrics": {},
+      "caveats": []
+    },
+    {
+      "section_id": "methodology",
+      "title": "९. कार्यविधि (Methodology)",
+      "content": "कार्यप्रणाली: उपग्रह दृश्य छनोट -> कक्ष-मिल्दो क्लिपिङ -> रडार क्यालिब्रेसन -> FloodUNet AI खण्डीकरण -> बहुभुज निष्कर्षण -> ओपनस्ट्रिटम्याप पूर्वाधार ओभरल्या -> NetworkX टोपोलोजिकल सञ्जाल विश्लेषण र डाइकस्ट्रा सबैभन्दा छोटो बाटो मार्गनिर्देशन।",
+      "key_metrics": {},
+      "caveats": []
+    },
+    {
+      "section_id": "limitations",
+      "title": "१०. सीमितताहरू (Limitations)",
+      "content": "- पूर्वाधार जोखिम अनुमान स्थानिक ओभरल्यामा आधारित छ, भौतिक क्षति प्रमाणित होइन।\n- सडक सञ्जाल पहुँच टोपोलोजिकल मोडेल हो; यसले वास्तविक समयको ट्राफिक वा भग्नावशेषको गतिलाई ध्यानमा राख्दैन।\n- बस्ती र अस्पतालहरू ओपनस्ट्रिटम्याप तथ्याङ्कमा आधारित छन्।",
+      "key_metrics": {},
+      "caveats": []
+    },
+    {
+      "section_id": "validation_notes",
+      "title": "११. प्रमाणीकरण टिप्पणीहरू (Validation Notes)",
+      "content": "कोपर्निकस आपतकालीन व्यवस्थापन सेवा EMSR927 विशुद्ध रूपमा बाह्य प्रमाणीकरण सन्दर्भको रूपमा राखिएको छ र यो प्रणालीको विश्लेषण इनपुट होइन।",
+      "key_metrics": {},
+      "caveats": []
+    }
+  ],
+  "metadata": {
+    "report_id": "rep_job_nepal_2026_case_ne_1791488068",
+    "job_id": "job_nepal_2026_case",
+    "generated_at": "2026-10-08T19:34:28.866819Z",
+    "language": "ne",
+    "report_status": "fallback",
+    "llm_used": false,
+    "model_name": null,
+    "structured_result_version": "1.0.0",
+    "data_status": "calibrated_raster_available",
+    "limitations_present": true
+  },
+  "disclaimer": "This report is generated from satellite observations and OpenStreetMap road network models. All damage, inundation, and road blockage statements represent geodetic estimates, not confirmed physical ground truth or structural destruction."
+}

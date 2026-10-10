@@ -1,0 +1,4453 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm_bridge_119684536",
+      "properties": {
+        "bridge_id": "osm_bridge_119684536",
+        "osm_id": "119684536",
+        "name": "\u091d\u094b\u0932\u0941\u0919\u094d\u0917\u0947 \u092a\u0941\u0932",
+        "bridge_type": "bridge",
+        "total_length_m": 58.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3185126,
+            28.0983869
+          ],
+          [
+            85.3180583,
+            28.0980442
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_140411233",
+      "properties": {
+        "bridge_id": "osm_bridge_140411233",
+        "osm_id": "140411233",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 144.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2070343,
+            27.8977269
+          ],
+          [
+            85.2067452,
+            27.8989998
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_300483064",
+      "properties": {
+        "bridge_id": "osm_bridge_300483064",
+        "osm_id": "300483064",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 113.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4175168,
+            27.9142074
+          ],
+          [
+            85.4171671,
+            27.9141063
+          ],
+          [
+            85.4165019,
+            27.9139048
+          ],
+          [
+            85.4165303,
+            27.9138346
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_300483072",
+      "properties": {
+        "bridge_id": "osm_bridge_300483072",
+        "osm_id": "300483072",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 52.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4202783,
+            27.91488
+          ],
+          [
+            85.4199863,
+            27.9152774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_303977029",
+      "properties": {
+        "bridge_id": "osm_bridge_303977029",
+        "osm_id": "303977029",
+        "name": "Budisera ko Pul",
+        "bridge_type": "bridge",
+        "total_length_m": 36.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3188784,
+            27.8591159
+          ],
+          [
+            85.3188197,
+            27.8594415
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_304401272",
+      "properties": {
+        "bridge_id": "osm_bridge_304401272",
+        "osm_id": "304401272",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 94.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2812484,
+            27.8699738
+          ],
+          [
+            85.2812033,
+            27.8698702
+          ],
+          [
+            85.2809024,
+            27.869178
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_313836389",
+      "properties": {
+        "bridge_id": "osm_bridge_313836389",
+        "osm_id": "313836389",
+        "name": "Budune Bridge",
+        "bridge_type": "bridge",
+        "total_length_m": 48.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3117301,
+            27.9185908
+          ],
+          [
+            85.3119182,
+            27.9183369
+          ],
+          [
+            85.3120215,
+            27.9182371
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_327399108",
+      "properties": {
+        "bridge_id": "osm_bridge_327399108",
+        "osm_id": "327399108",
+        "name": "Kharanitar-Satbishe Road",
+        "bridge_type": "bridge",
+        "total_length_m": 42.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3440311,
+            27.9239336
+          ],
+          [
+            85.3444415,
+            27.923827
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340450699",
+      "properties": {
+        "bridge_id": "osm_bridge_340450699",
+        "osm_id": "340450699",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 29.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2147015,
+            27.9920073
+          ],
+          [
+            85.2149616,
+            27.9918725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340465628",
+      "properties": {
+        "bridge_id": "osm_bridge_340465628",
+        "osm_id": "340465628",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 17.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.206367,
+            28.0530559
+          ],
+          [
+            85.2062626,
+            28.0529345
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340491888",
+      "properties": {
+        "bridge_id": "osm_bridge_340491888",
+        "osm_id": "340491888",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 60.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.334412,
+            27.9233123
+          ],
+          [
+            85.3343683,
+            27.9227743
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340494277",
+      "properties": {
+        "bridge_id": "osm_bridge_340494277",
+        "osm_id": "340494277",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 146.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3679904,
+            27.9217052
+          ],
+          [
+            85.368279,
+            27.9204148
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340508235",
+      "properties": {
+        "bridge_id": "osm_bridge_340508235",
+        "osm_id": "340508235",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 13.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3515896,
+            27.9742373
+          ],
+          [
+            85.3515216,
+            27.9743387
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340535861",
+      "properties": {
+        "bridge_id": "osm_bridge_340535861",
+        "osm_id": "340535861",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 23.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4153189,
+            27.8510005
+          ],
+          [
+            85.4155297,
+            27.8510945
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340540971",
+      "properties": {
+        "bridge_id": "osm_bridge_340540971",
+        "osm_id": "340540971",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 35.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3055702,
+            28.0060664
+          ],
+          [
+            85.3054468,
+            28.0059301
+          ],
+          [
+            85.3053385,
+            28.005821
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340540972",
+      "properties": {
+        "bridge_id": "osm_bridge_340540972",
+        "osm_id": "340540972",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 27.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3049238,
+            28.0069177
+          ],
+          [
+            85.3051702,
+            28.0068108
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340557000",
+      "properties": {
+        "bridge_id": "osm_bridge_340557000",
+        "osm_id": "340557000",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 91.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3878568,
+            27.8561889
+          ],
+          [
+            85.3881987,
+            27.8557474
+          ],
+          [
+            85.3884134,
+            27.8555327
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340557020",
+      "properties": {
+        "bridge_id": "osm_bridge_340557020",
+        "osm_id": "340557020",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 91.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4041864,
+            27.8568128
+          ],
+          [
+            85.4041255,
+            27.8560306
+          ],
+          [
+            85.4041214,
+            27.8559907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340564771",
+      "properties": {
+        "bridge_id": "osm_bridge_340564771",
+        "osm_id": "340564771",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 78.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3900889,
+            27.8603431
+          ],
+          [
+            85.3903928,
+            27.8596957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340567884",
+      "properties": {
+        "bridge_id": "osm_bridge_340567884",
+        "osm_id": "340567884",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 102.9,
+        "flooded_length_m": 102.9,
+        "affected_percentage": 100.0,
+        "nearest_flood_region_id": "flood_region_083",
+        "classification": "heavily_affected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4397145,
+            27.9775226
+          ],
+          [
+            85.4403589,
+            27.9767938
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340571803",
+      "properties": {
+        "bridge_id": "osm_bridge_340571803",
+        "osm_id": "340571803",
+        "name": "Kharanitar-Satbishe Road",
+        "bridge_type": "bridge",
+        "total_length_m": 40.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3044527,
+            27.9273763
+          ],
+          [
+            85.304858,
+            27.9274212
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340571807",
+      "properties": {
+        "bridge_id": "osm_bridge_340571807",
+        "osm_id": "340571807",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 77.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3192815,
+            27.9208889
+          ],
+          [
+            85.3192145,
+            27.9215818
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340578788",
+      "properties": {
+        "bridge_id": "osm_bridge_340578788",
+        "osm_id": "340578788",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 68.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4762704,
+            27.8573528
+          ],
+          [
+            85.4763394,
+            27.8579631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340627636",
+      "properties": {
+        "bridge_id": "osm_bridge_340627636",
+        "osm_id": "340627636",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 178.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2329426,
+            27.8964116
+          ],
+          [
+            85.2324149,
+            27.8948798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340639576",
+      "properties": {
+        "bridge_id": "osm_bridge_340639576",
+        "osm_id": "340639576",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 47.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2996527,
+            27.9650476
+          ],
+          [
+            85.2994968,
+            27.9646485
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340641821",
+      "properties": {
+        "bridge_id": "osm_bridge_340641821",
+        "osm_id": "340641821",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 28.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2834721,
+            27.9055676
+          ],
+          [
+            85.2834799,
+            27.9055471
+          ],
+          [
+            85.2833429,
+            27.9054446
+          ],
+          [
+            85.2833031,
+            27.9053734
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340727068",
+      "properties": {
+        "bridge_id": "osm_bridge_340727068",
+        "osm_id": "340727068",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 84.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4349661,
+            27.9215014
+          ],
+          [
+            85.435756,
+            27.9212104
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340729961",
+      "properties": {
+        "bridge_id": "osm_bridge_340729961",
+        "osm_id": "340729961",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 29.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2848606,
+            27.8662746
+          ],
+          [
+            85.2845933,
+            27.8663958
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340732243",
+      "properties": {
+        "bridge_id": "osm_bridge_340732243",
+        "osm_id": "340732243",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 89.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4684321,
+            27.9256968
+          ],
+          [
+            85.4679492,
+            27.925016
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340732572",
+      "properties": {
+        "bridge_id": "osm_bridge_340732572",
+        "osm_id": "340732572",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 46.2,
+        "flooded_length_m": 46.2,
+        "affected_percentage": 100.0,
+        "nearest_flood_region_id": "flood_region_083",
+        "classification": "heavily_affected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4416552,
+            27.9759967
+          ],
+          [
+            85.4419473,
+            27.9756719
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_340732575",
+      "properties": {
+        "bridge_id": "osm_bridge_340732575",
+        "osm_id": "340732575",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 29.0,
+        "flooded_length_m": 29.0,
+        "affected_percentage": 100.0,
+        "nearest_flood_region_id": "flood_region_083",
+        "classification": "heavily_affected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4392929,
+            27.9759707
+          ],
+          [
+            85.439566,
+            27.975873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341028060",
+      "properties": {
+        "bridge_id": "osm_bridge_341028060",
+        "osm_id": "341028060",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 73.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2834932,
+            28.0010617
+          ],
+          [
+            85.2837603,
+            28.0016772
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341028061",
+      "properties": {
+        "bridge_id": "osm_bridge_341028061",
+        "osm_id": "341028061",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 70.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2664011,
+            28.001225
+          ],
+          [
+            85.2670986,
+            28.0013734
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341028062",
+      "properties": {
+        "bridge_id": "osm_bridge_341028062",
+        "osm_id": "341028062",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 54.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2673849,
+            28.0011048
+          ],
+          [
+            85.2676538,
+            28.0006798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341028063",
+      "properties": {
+        "bridge_id": "osm_bridge_341028063",
+        "osm_id": "341028063",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 127.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2682808,
+            28.0101441
+          ],
+          [
+            85.2679064,
+            28.0090489
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341029513",
+      "properties": {
+        "bridge_id": "osm_bridge_341029513",
+        "osm_id": "341029513",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 77.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3810096,
+            27.9228092
+          ],
+          [
+            85.3811396,
+            27.9234997
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341109846",
+      "properties": {
+        "bridge_id": "osm_bridge_341109846",
+        "osm_id": "341109846",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 68.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3552401,
+            27.9231332
+          ],
+          [
+            85.3556746,
+            27.9226569
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341110743",
+      "properties": {
+        "bridge_id": "osm_bridge_341110743",
+        "osm_id": "341110743",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 39.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4639768,
+            27.9405898
+          ],
+          [
+            85.464127,
+            27.9402581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341164952",
+      "properties": {
+        "bridge_id": "osm_bridge_341164952",
+        "osm_id": "341164952",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 95.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2580221,
+            27.9729059
+          ],
+          [
+            85.2589671,
+            27.9727062
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341165498",
+      "properties": {
+        "bridge_id": "osm_bridge_341165498",
+        "osm_id": "341165498",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 108.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2426597,
+            27.9730539
+          ],
+          [
+            85.2433097,
+            27.9738427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341365771",
+      "properties": {
+        "bridge_id": "osm_bridge_341365771",
+        "osm_id": "341365771",
+        "name": "Chhahare Kabilash Suspension Bridge",
+        "bridge_type": "bridge",
+        "total_length_m": 214.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2824346,
+            27.870595
+          ],
+          [
+            85.2824986,
+            27.8686714
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341480538",
+      "properties": {
+        "bridge_id": "osm_bridge_341480538",
+        "osm_id": "341480538",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 11.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2635152,
+            27.9789003
+          ],
+          [
+            85.2634073,
+            27.9788569
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341520606",
+      "properties": {
+        "bridge_id": "osm_bridge_341520606",
+        "osm_id": "341520606",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 54.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3892151,
+            27.9386504
+          ],
+          [
+            85.3892988,
+            27.9386402
+          ],
+          [
+            85.3894946,
+            27.938626
+          ],
+          [
+            85.3896341,
+            27.9386023
+          ],
+          [
+            85.3897595,
+            27.938575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341563115",
+      "properties": {
+        "bridge_id": "osm_bridge_341563115",
+        "osm_id": "341563115",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 9.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3247534,
+            27.9233934
+          ],
+          [
+            85.3247156,
+            27.9234748
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341573395",
+      "properties": {
+        "bridge_id": "osm_bridge_341573395",
+        "osm_id": "341573395",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 82.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2146714,
+            28.0773072
+          ],
+          [
+            85.2150799,
+            28.0766603
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341573407",
+      "properties": {
+        "bridge_id": "osm_bridge_341573407",
+        "osm_id": "341573407",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 47.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2055232,
+            28.0744412
+          ],
+          [
+            85.2059208,
+            28.0746838
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341594137",
+      "properties": {
+        "bridge_id": "osm_bridge_341594137",
+        "osm_id": "341594137",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 59.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4615987,
+            27.9367868
+          ],
+          [
+            85.4622034,
+            27.9367844
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341594142",
+      "properties": {
+        "bridge_id": "osm_bridge_341594142",
+        "osm_id": "341594142",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 20.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.459876,
+            27.9395351
+          ],
+          [
+            85.4600736,
+            27.9395781
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341595612",
+      "properties": {
+        "bridge_id": "osm_bridge_341595612",
+        "osm_id": "341595612",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 39.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4277844,
+            27.8372878
+          ],
+          [
+            85.428103,
+            27.8374963
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341601130",
+      "properties": {
+        "bridge_id": "osm_bridge_341601130",
+        "osm_id": "341601130",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 11.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4102376,
+            27.8281859
+          ],
+          [
+            85.4103222,
+            27.8281127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341628147",
+      "properties": {
+        "bridge_id": "osm_bridge_341628147",
+        "osm_id": "341628147",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 129.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3815736,
+            27.9201625
+          ],
+          [
+            85.3813759,
+            27.921313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341684802",
+      "properties": {
+        "bridge_id": "osm_bridge_341684802",
+        "osm_id": "341684802",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 8.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3025162,
+            28.0136957
+          ],
+          [
+            85.3024413,
+            28.0137407
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341741330",
+      "properties": {
+        "bridge_id": "osm_bridge_341741330",
+        "osm_id": "341741330",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 59.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.453234,
+            27.9848433
+          ],
+          [
+            85.4532692,
+            27.9843061
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341843632",
+      "properties": {
+        "bridge_id": "osm_bridge_341843632",
+        "osm_id": "341843632",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 13.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3890386,
+            27.8625613
+          ],
+          [
+            85.3891647,
+            27.8626154
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341851342",
+      "properties": {
+        "bridge_id": "osm_bridge_341851342",
+        "osm_id": "341851342",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 14.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3933385,
+            27.8653332
+          ],
+          [
+            85.3932328,
+            27.8654231
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341856386",
+      "properties": {
+        "bridge_id": "osm_bridge_341856386",
+        "osm_id": "341856386",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 13.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4038405,
+            27.8569999
+          ],
+          [
+            85.4039197,
+            27.8568984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341858953",
+      "properties": {
+        "bridge_id": "osm_bridge_341858953",
+        "osm_id": "341858953",
+        "name": "\u092b\u0921\u094d\u0915\u0947",
+        "bridge_type": "bridge",
+        "total_length_m": 49.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.301419,
+            27.9173373
+          ],
+          [
+            85.3011931,
+            27.9174329
+          ],
+          [
+            85.3009671,
+            27.9175284
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341866321",
+      "properties": {
+        "bridge_id": "osm_bridge_341866321",
+        "osm_id": "341866321",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 15.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2813776,
+            27.9946381
+          ],
+          [
+            85.281318,
+            27.994513
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341870199",
+      "properties": {
+        "bridge_id": "osm_bridge_341870199",
+        "osm_id": "341870199",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 12.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4227793,
+            27.8484744
+          ],
+          [
+            85.4227282,
+            27.8485722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341880510",
+      "properties": {
+        "bridge_id": "osm_bridge_341880510",
+        "osm_id": "341880510",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 109.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3318593,
+            27.9603471
+          ],
+          [
+            85.331379,
+            27.9612329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_341960505",
+      "properties": {
+        "bridge_id": "osm_bridge_341960505",
+        "osm_id": "341960505",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 64.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2740935,
+            27.9872439
+          ],
+          [
+            85.2743579,
+            27.9867142
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342109531",
+      "properties": {
+        "bridge_id": "osm_bridge_342109531",
+        "osm_id": "342109531",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 15.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3233767,
+            28.0421071
+          ],
+          [
+            85.3234367,
+            28.0419766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342123061",
+      "properties": {
+        "bridge_id": "osm_bridge_342123061",
+        "osm_id": "342123061",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 86.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2320472,
+            27.8953365
+          ],
+          [
+            85.2323547,
+            27.8960659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342148060",
+      "properties": {
+        "bridge_id": "osm_bridge_342148060",
+        "osm_id": "342148060",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 81.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2075513,
+            27.8986514
+          ],
+          [
+            85.2076391,
+            27.8979246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342231411",
+      "properties": {
+        "bridge_id": "osm_bridge_342231411",
+        "osm_id": "342231411",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 40.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2000708,
+            27.8831171
+          ],
+          [
+            85.2003637,
+            27.8833713
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342369531",
+      "properties": {
+        "bridge_id": "osm_bridge_342369531",
+        "osm_id": "342369531",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 7.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2666811,
+            27.8745663
+          ],
+          [
+            85.2666131,
+            27.8745903
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342369816",
+      "properties": {
+        "bridge_id": "osm_bridge_342369816",
+        "osm_id": "342369816",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 19.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2665376,
+            27.8744744
+          ],
+          [
+            85.2664946,
+            27.8743065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342530058",
+      "properties": {
+        "bridge_id": "osm_bridge_342530058",
+        "osm_id": "342530058",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 25.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3062209,
+            27.9452336
+          ],
+          [
+            85.3064543,
+            27.9451436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342530344",
+      "properties": {
+        "bridge_id": "osm_bridge_342530344",
+        "osm_id": "342530344",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 17.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3034659,
+            27.9367611
+          ],
+          [
+            85.3035062,
+            27.9369116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342757557",
+      "properties": {
+        "bridge_id": "osm_bridge_342757557",
+        "osm_id": "342757557",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 49.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3346747,
+            27.8495428
+          ],
+          [
+            85.3341697,
+            27.8495648
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342810694",
+      "properties": {
+        "bridge_id": "osm_bridge_342810694",
+        "osm_id": "342810694",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 46.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3060785,
+            28.0298496
+          ],
+          [
+            85.3063561,
+            28.0295104
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342931903",
+      "properties": {
+        "bridge_id": "osm_bridge_342931903",
+        "osm_id": "342931903",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 88.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4566647,
+            27.9043256
+          ],
+          [
+            85.4560639,
+            27.9037358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342935537",
+      "properties": {
+        "bridge_id": "osm_bridge_342935537",
+        "osm_id": "342935537",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 69.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4154071,
+            27.8502669
+          ],
+          [
+            85.4160222,
+            27.8505743
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_342935539",
+      "properties": {
+        "bridge_id": "osm_bridge_342935539",
+        "osm_id": "342935539",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 77.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4180712,
+            27.8512767
+          ],
+          [
+            85.4175705,
+            27.8507389
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_343260984",
+      "properties": {
+        "bridge_id": "osm_bridge_343260984",
+        "osm_id": "343260984",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 100.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2009205,
+            27.9419145
+          ],
+          [
+            85.2015428,
+            27.9412037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_343296431",
+      "properties": {
+        "bridge_id": "osm_bridge_343296431",
+        "osm_id": "343296431",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 101.0,
+        "flooded_length_m": 101.0,
+        "affected_percentage": 100.0,
+        "nearest_flood_region_id": "flood_region_083",
+        "classification": "heavily_affected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4449857,
+            27.9811844
+          ],
+          [
+            85.4458607,
+            27.9816593
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_343333120",
+      "properties": {
+        "bridge_id": "osm_bridge_343333120",
+        "osm_id": "343333120",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 37.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4395527,
+            27.9267181
+          ],
+          [
+            85.4391878,
+            27.9268259
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_343368565",
+      "properties": {
+        "bridge_id": "osm_bridge_343368565",
+        "osm_id": "343368565",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 34.1,
+        "flooded_length_m": 34.1,
+        "affected_percentage": 100.0,
+        "nearest_flood_region_id": "flood_region_069",
+        "classification": "heavily_affected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4529251,
+            28.0061999
+          ],
+          [
+            85.453266,
+            28.0061441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_343671769",
+      "properties": {
+        "bridge_id": "osm_bridge_343671769",
+        "osm_id": "343671769",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 91.9,
+        "flooded_length_m": 91.9,
+        "affected_percentage": 100.0,
+        "nearest_flood_region_id": "flood_region_069",
+        "classification": "heavily_affected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4513433,
+            27.9994664
+          ],
+          [
+            85.4504379,
+            27.9992619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344083429",
+      "properties": {
+        "bridge_id": "osm_bridge_344083429",
+        "osm_id": "344083429",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 7.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.243935,
+            28.020563
+          ],
+          [
+            85.2439069,
+            28.0206239
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344083434",
+      "properties": {
+        "bridge_id": "osm_bridge_344083434",
+        "osm_id": "344083434",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 7.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2502668,
+            28.0286716
+          ],
+          [
+            85.2503398,
+            28.0287002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344083436",
+      "properties": {
+        "bridge_id": "osm_bridge_344083436",
+        "osm_id": "344083436",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 17.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2552898,
+            28.0316072
+          ],
+          [
+            85.2554325,
+            28.0317027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344083441",
+      "properties": {
+        "bridge_id": "osm_bridge_344083441",
+        "osm_id": "344083441",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 9.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.244622,
+            28.0029026
+          ],
+          [
+            85.2445452,
+            28.0028529
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344160418",
+      "properties": {
+        "bridge_id": "osm_bridge_344160418",
+        "osm_id": "344160418",
+        "name": "Pasang Lhamu Highway",
+        "bridge_type": "bridge",
+        "total_length_m": 36.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2286237,
+            28.0553123
+          ],
+          [
+            85.2287291,
+            28.0554753
+          ],
+          [
+            85.2287128,
+            28.0556151
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344362651",
+      "properties": {
+        "bridge_id": "osm_bridge_344362651",
+        "osm_id": "344362651",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 12.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4200858,
+            27.8922069
+          ],
+          [
+            85.4201971,
+            27.892261
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344778400",
+      "properties": {
+        "bridge_id": "osm_bridge_344778400",
+        "osm_id": "344778400",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 19.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.457564,
+            27.9085905
+          ],
+          [
+            85.4576509,
+            27.9086349
+          ],
+          [
+            85.4577141,
+            27.9086972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344794267",
+      "properties": {
+        "bridge_id": "osm_bridge_344794267",
+        "osm_id": "344794267",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 14.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4617189,
+            27.9103427
+          ],
+          [
+            85.4617447,
+            27.9104679
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344794269",
+      "properties": {
+        "bridge_id": "osm_bridge_344794269",
+        "osm_id": "344794269",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 25.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4616218,
+            27.9085235
+          ],
+          [
+            85.4615221,
+            27.9087379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344794271",
+      "properties": {
+        "bridge_id": "osm_bridge_344794271",
+        "osm_id": "344794271",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 25.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4571915,
+            27.9091463
+          ],
+          [
+            85.4571914,
+            27.9092724
+          ],
+          [
+            85.4571185,
+            27.9093502
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_344797303",
+      "properties": {
+        "bridge_id": "osm_bridge_344797303",
+        "osm_id": "344797303",
+        "name": "Helambu Trek",
+        "bridge_type": "bridge",
+        "total_length_m": 17.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.463702,
+            27.8063176
+          ],
+          [
+            85.463877,
+            27.8062873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_346395206",
+      "properties": {
+        "bridge_id": "osm_bridge_346395206",
+        "osm_id": "346395206",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 45.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3800936,
+            27.8616981
+          ],
+          [
+            85.380107,
+            27.8612926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_346396399",
+      "properties": {
+        "bridge_id": "osm_bridge_346396399",
+        "osm_id": "346396399",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 20.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3181989,
+            27.8591275
+          ],
+          [
+            85.3181936,
+            27.8593149
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_351271748",
+      "properties": {
+        "bridge_id": "osm_bridge_351271748",
+        "osm_id": "351271748",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 45.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4583332,
+            27.9422634
+          ],
+          [
+            85.4587609,
+            27.942413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_351271749",
+      "properties": {
+        "bridge_id": "osm_bridge_351271749",
+        "osm_id": "351271749",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 22.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4594207,
+            27.9407052
+          ],
+          [
+            85.4594965,
+            27.9408997
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_351474546",
+      "properties": {
+        "bridge_id": "osm_bridge_351474546",
+        "osm_id": "351474546",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 94.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4570621,
+            27.9280571
+          ],
+          [
+            85.4572982,
+            27.928883
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_351483438",
+      "properties": {
+        "bridge_id": "osm_bridge_351483438",
+        "osm_id": "351483438",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 59.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4417935,
+            27.9347763
+          ],
+          [
+            85.4423991,
+            27.9348227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_351483440",
+      "properties": {
+        "bridge_id": "osm_bridge_351483440",
+        "osm_id": "351483440",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 85.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4362198,
+            27.9191992
+          ],
+          [
+            85.4362131,
+            27.9199665
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_466631627",
+      "properties": {
+        "bridge_id": "osm_bridge_466631627",
+        "osm_id": "466631627",
+        "name": "aanpraha bridge",
+        "bridge_type": "bridge",
+        "total_length_m": 68.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2958955,
+            27.9176433
+          ],
+          [
+            85.2959946,
+            27.9170381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886355277",
+      "properties": {
+        "bridge_id": "osm_bridge_886355277",
+        "osm_id": "886355277",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 9.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4243045,
+            27.8685498
+          ],
+          [
+            85.4243454,
+            27.8684708
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886355287",
+      "properties": {
+        "bridge_id": "osm_bridge_886355287",
+        "osm_id": "886355287",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 13.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.415499,
+            27.8760146
+          ],
+          [
+            85.4154541,
+            27.8761298
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886355310",
+      "properties": {
+        "bridge_id": "osm_bridge_886355310",
+        "osm_id": "886355310",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 11.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4157392,
+            27.8756548
+          ],
+          [
+            85.4156291,
+            27.8756789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886464099",
+      "properties": {
+        "bridge_id": "osm_bridge_886464099",
+        "osm_id": "886464099",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 18.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4105121,
+            28.0829855
+          ],
+          [
+            85.4106999,
+            28.0829743
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886464101",
+      "properties": {
+        "bridge_id": "osm_bridge_886464101",
+        "osm_id": "886464101",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 37.8,
+        "flooded_length_m": 37.8,
+        "affected_percentage": 100.0,
+        "nearest_flood_region_id": "flood_region_018",
+        "classification": "heavily_affected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3982806,
+            28.0801576
+          ],
+          [
+            85.3981662,
+            28.0799935
+          ],
+          [
+            85.3980925,
+            28.0798622
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886667752",
+      "properties": {
+        "bridge_id": "osm_bridge_886667752",
+        "osm_id": "886667752",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 119.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2555075,
+            27.9730058
+          ],
+          [
+            85.2565241,
+            27.973598
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886678660",
+      "properties": {
+        "bridge_id": "osm_bridge_886678660",
+        "osm_id": "886678660",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 53.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2347623,
+            27.981773
+          ],
+          [
+            85.2353004,
+            27.9817483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886935653",
+      "properties": {
+        "bridge_id": "osm_bridge_886935653",
+        "osm_id": "886935653",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 33.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4371307,
+            27.9846765
+          ],
+          [
+            85.4374713,
+            27.9846646
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_886947874",
+      "properties": {
+        "bridge_id": "osm_bridge_886947874",
+        "osm_id": "886947874",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 15.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2337334,
+            28.0132496
+          ],
+          [
+            85.2338406,
+            28.0131526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_887064406",
+      "properties": {
+        "bridge_id": "osm_bridge_887064406",
+        "osm_id": "887064406",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 15.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2556966,
+            27.9963648
+          ],
+          [
+            85.2557972,
+            27.9964702
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_887422204",
+      "properties": {
+        "bridge_id": "osm_bridge_887422204",
+        "osm_id": "887422204",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 10.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3924843,
+            27.8427808
+          ],
+          [
+            85.3924473,
+            27.8426942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_888120864",
+      "properties": {
+        "bridge_id": "osm_bridge_888120864",
+        "osm_id": "888120864",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 156.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3559618,
+            27.9241255
+          ],
+          [
+            85.3562593,
+            27.9227438
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_888191609",
+      "properties": {
+        "bridge_id": "osm_bridge_888191609",
+        "osm_id": "888191609",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 111.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4097466,
+            27.8415937
+          ],
+          [
+            85.4106304,
+            27.8409735
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_888191870",
+      "properties": {
+        "bridge_id": "osm_bridge_888191870",
+        "osm_id": "888191870",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 76.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4213271,
+            27.842138
+          ],
+          [
+            85.4217777,
+            27.8427025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_888204632",
+      "properties": {
+        "bridge_id": "osm_bridge_888204632",
+        "osm_id": "888204632",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 57.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4196963,
+            27.8489826
+          ],
+          [
+            85.4197258,
+            27.8484632
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_888296247",
+      "properties": {
+        "bridge_id": "osm_bridge_888296247",
+        "osm_id": "888296247",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 24.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3715764,
+            27.8614769
+          ],
+          [
+            85.3718204,
+            27.8614587
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_890190652",
+      "properties": {
+        "bridge_id": "osm_bridge_890190652",
+        "osm_id": "890190652",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 77.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3819792,
+            27.9233091
+          ],
+          [
+            85.3818516,
+            27.9226195
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_890573347",
+      "properties": {
+        "bridge_id": "osm_bridge_890573347",
+        "osm_id": "890573347",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 57.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4146116,
+            27.8492518
+          ],
+          [
+            85.414899,
+            27.8487989
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_890882331",
+      "properties": {
+        "bridge_id": "osm_bridge_890882331",
+        "osm_id": "890882331",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 9.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4433885,
+            27.8865386
+          ],
+          [
+            85.4434566,
+            27.8864815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_890909605",
+      "properties": {
+        "bridge_id": "osm_bridge_890909605",
+        "osm_id": "890909605",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 26.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3485648,
+            27.9737832
+          ],
+          [
+            85.3482983,
+            27.9737777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_890920607",
+      "properties": {
+        "bridge_id": "osm_bridge_890920607",
+        "osm_id": "890920607",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 90.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2953161,
+            27.9175361
+          ],
+          [
+            85.2955367,
+            27.9167439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_891121630",
+      "properties": {
+        "bridge_id": "osm_bridge_891121630",
+        "osm_id": "891121630",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 55.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4219802,
+            27.9173784
+          ],
+          [
+            85.4220587,
+            27.9178748
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_891121706",
+      "properties": {
+        "bridge_id": "osm_bridge_891121706",
+        "osm_id": "891121706",
+        "name": "Kharanitar-Satbishe Road",
+        "bridge_type": "bridge",
+        "total_length_m": 47.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.391458,
+            27.9545485
+          ],
+          [
+            85.3918873,
+            27.9547372
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_891121731",
+      "properties": {
+        "bridge_id": "osm_bridge_891121731",
+        "osm_id": "891121731",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 162.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3929493,
+            27.9505752
+          ],
+          [
+            85.3945693,
+            27.950298
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_891166380",
+      "properties": {
+        "bridge_id": "osm_bridge_891166380",
+        "osm_id": "891166380",
+        "name": "Naya Pul Bridge",
+        "bridge_type": "bridge",
+        "total_length_m": 113.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2680554,
+            27.9137119
+          ],
+          [
+            85.2689069,
+            27.9130217
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_891434896",
+      "properties": {
+        "bridge_id": "osm_bridge_891434896",
+        "osm_id": "891434896",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 78.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2151591,
+            27.8451382
+          ],
+          [
+            85.215733,
+            27.8456315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_891434928",
+      "properties": {
+        "bridge_id": "osm_bridge_891434928",
+        "osm_id": "891434928",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 34.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2121952,
+            27.8398754
+          ],
+          [
+            85.2118412,
+            27.8398778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_891567277",
+      "properties": {
+        "bridge_id": "osm_bridge_891567277",
+        "osm_id": "891567277",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 61.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3490231,
+            27.8614319
+          ],
+          [
+            85.3493612,
+            27.8615326
+          ],
+          [
+            85.3496089,
+            27.8616127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_910737617",
+      "properties": {
+        "bridge_id": "osm_bridge_910737617",
+        "osm_id": "910737617",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 121.3,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4331529,
+            27.8493549
+          ],
+          [
+            85.4331891,
+            27.8488005
+          ],
+          [
+            85.4331261,
+            27.8482687
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_912360483",
+      "properties": {
+        "bridge_id": "osm_bridge_912360483",
+        "osm_id": "912360483",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 53.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2060776,
+            28.0650316
+          ],
+          [
+            85.2064942,
+            28.0653413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_924500912",
+      "properties": {
+        "bridge_id": "osm_bridge_924500912",
+        "osm_id": "924500912",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 105.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2750125,
+            28.0200751
+          ],
+          [
+            85.2742615,
+            28.0193967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_924500984",
+      "properties": {
+        "bridge_id": "osm_bridge_924500984",
+        "osm_id": "924500984",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 79.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2689508,
+            28.0283195
+          ],
+          [
+            85.2697568,
+            28.0283988
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_924501002",
+      "properties": {
+        "bridge_id": "osm_bridge_924501002",
+        "osm_id": "924501002",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 13.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2553359,
+            28.0310576
+          ],
+          [
+            85.2553024,
+            28.0311704
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_924501008",
+      "properties": {
+        "bridge_id": "osm_bridge_924501008",
+        "osm_id": "924501008",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 108.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2706566,
+            28.0170146
+          ],
+          [
+            85.2717644,
+            28.0170028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1020767766",
+      "properties": {
+        "bridge_id": "osm_bridge_1020767766",
+        "osm_id": "1020767766",
+        "name": "Kharanitar-Satbishe Road",
+        "bridge_type": "bridge",
+        "total_length_m": 47.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3722118,
+            27.9229761
+          ],
+          [
+            85.3725806,
+            27.9230614
+          ],
+          [
+            85.3726839,
+            27.9230769
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1020776324",
+      "properties": {
+        "bridge_id": "osm_bridge_1020776324",
+        "osm_id": "1020776324",
+        "name": "Kharanitar-Satbishe Road",
+        "bridge_type": "bridge",
+        "total_length_m": 13.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3277588,
+            27.9254283
+          ],
+          [
+            85.3278923,
+            27.9253922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1020797715",
+      "properties": {
+        "bridge_id": "osm_bridge_1020797715",
+        "osm_id": "1020797715",
+        "name": "Dupcheshwar Road",
+        "bridge_type": "bridge",
+        "total_length_m": 19.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2097423,
+            27.9009754
+          ],
+          [
+            85.2099401,
+            27.9010003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1023025918",
+      "properties": {
+        "bridge_id": "osm_bridge_1023025918",
+        "osm_id": "1023025918",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 7.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4773737,
+            27.8273233
+          ],
+          [
+            85.4774252,
+            27.8272793
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1039308071",
+      "properties": {
+        "bridge_id": "osm_bridge_1039308071",
+        "osm_id": "1039308071",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 37.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.312691,
+            27.9557105
+          ],
+          [
+            85.3126838,
+            27.9553766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1039520717",
+      "properties": {
+        "bridge_id": "osm_bridge_1039520717",
+        "osm_id": "1039520717",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 55.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3058727,
+            27.955482
+          ],
+          [
+            85.3062791,
+            27.9551409
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1128370677",
+      "properties": {
+        "bridge_id": "osm_bridge_1128370677",
+        "osm_id": "1128370677",
+        "name": "Dupcheshwar Road",
+        "bridge_type": "bridge",
+        "total_length_m": 14.4,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2489207,
+            27.9106049
+          ],
+          [
+            85.2490582,
+            27.9105598
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1130275490",
+      "properties": {
+        "bridge_id": "osm_bridge_1130275490",
+        "osm_id": "1130275490",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 46.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2173685,
+            27.8220442
+          ],
+          [
+            85.2169038,
+            27.8219932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1179951434",
+      "properties": {
+        "bridge_id": "osm_bridge_1179951434",
+        "osm_id": "1179951434",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 6.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.329964,
+            27.8006069
+          ],
+          [
+            85.3300123,
+            27.8005725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1218958043",
+      "properties": {
+        "bridge_id": "osm_bridge_1218958043",
+        "osm_id": "1218958043",
+        "name": "Sahare Jholunge Pul",
+        "bridge_type": "bridge",
+        "total_length_m": 314.8,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2857774,
+            27.9165162
+          ],
+          [
+            85.2843257,
+            27.919037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1237974709",
+      "properties": {
+        "bridge_id": "osm_bridge_1237974709",
+        "osm_id": "1237974709",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 9.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.26088,
+            27.9829426
+          ],
+          [
+            85.2608709,
+            27.9828543
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1238275511",
+      "properties": {
+        "bridge_id": "osm_bridge_1238275511",
+        "osm_id": "1238275511",
+        "name": "Dorkhu Khola Bridge",
+        "bridge_type": "bridge",
+        "total_length_m": 38.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2996499,
+            27.9198471
+          ],
+          [
+            85.3000361,
+            27.919885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1408808862",
+      "properties": {
+        "bridge_id": "osm_bridge_1408808862",
+        "osm_id": "1408808862",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 36.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3264396,
+            27.86203
+          ],
+          [
+            85.326804,
+            27.8620902
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1409278002",
+      "properties": {
+        "bridge_id": "osm_bridge_1409278002",
+        "osm_id": "1409278002",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 35.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.4014371,
+            27.8559393
+          ],
+          [
+            85.4016423,
+            27.8556773
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1409278005",
+      "properties": {
+        "bridge_id": "osm_bridge_1409278005",
+        "osm_id": "1409278005",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 10.0,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3882261,
+            27.8632384
+          ],
+          [
+            85.3883279,
+            27.8632402
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1547171073",
+      "properties": {
+        "bridge_id": "osm_bridge_1547171073",
+        "osm_id": "1547171073",
+        "name": "\u091d\u094b\u0932\u0941\u0919\u094d\u0917\u0947 \u092a\u0941\u0932",
+        "bridge_type": "bridge",
+        "total_length_m": 129.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3093408,
+            27.8638834
+          ],
+          [
+            85.3103762,
+            27.8646055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1547173429",
+      "properties": {
+        "bridge_id": "osm_bridge_1547173429",
+        "osm_id": "1547173429",
+        "name": "Likhu Khola Bridge",
+        "bridge_type": "bridge",
+        "total_length_m": 193.2,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2928615,
+            27.8630667
+          ],
+          [
+            85.293519,
+            27.8647026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1553765821",
+      "properties": {
+        "bridge_id": "osm_bridge_1553765821",
+        "osm_id": "1553765821",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 193.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2491189,
+            27.9081062
+          ],
+          [
+            85.2487508,
+            27.9098157
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1553948209",
+      "properties": {
+        "bridge_id": "osm_bridge_1553948209",
+        "osm_id": "1553948209",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 34.1,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2064104,
+            28.0624898
+          ],
+          [
+            85.2063948,
+            28.0627962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1553948211",
+      "properties": {
+        "bridge_id": "osm_bridge_1553948211",
+        "osm_id": "1553948211",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 29.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2074229,
+            28.0604038
+          ],
+          [
+            85.2074493,
+            28.0601376
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1553951064",
+      "properties": {
+        "bridge_id": "osm_bridge_1553951064",
+        "osm_id": "1553951064",
+        "name": "Army Road",
+        "bridge_type": "bridge",
+        "total_length_m": 11.5,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2181679,
+            28.0787925
+          ],
+          [
+            85.218088,
+            28.0787174
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1553951066",
+      "properties": {
+        "bridge_id": "osm_bridge_1553951066",
+        "osm_id": "1553951066",
+        "name": "Army Road",
+        "bridge_type": "bridge",
+        "total_length_m": 16.6,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2226888,
+            28.0819418
+          ],
+          [
+            85.2225566,
+            28.0818488
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1553951070",
+      "properties": {
+        "bridge_id": "osm_bridge_1553951070",
+        "osm_id": "1553951070",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 51.9,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2129905,
+            28.0758237
+          ],
+          [
+            85.212702,
+            28.0762142
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm_bridge_1557249141",
+      "properties": {
+        "bridge_id": "osm_bridge_1557249141",
+        "osm_id": "1557249141",
+        "name": null,
+        "bridge_type": "bridge",
+        "total_length_m": 99.7,
+        "flooded_length_m": 0.0,
+        "affected_percentage": 0.0,
+        "nearest_flood_region_id": null,
+        "classification": "unaffected"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2172858,
+            28.001999
+          ],
+          [
+            85.2182834,
+            28.00184
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -22,3 +22,32 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python & Environment
+.env
+*.env
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+
+# Large Datasets & Raw Satellite Archives
+backend/data/raw/
+backend/data/cache/
+backend/data/processed/
+*.zip
+*.SAFE
+*.tar.gz
+*.tif
+*.tiff
+backend/data/outputs/*
+!backend/data/outputs/job_nepal_2026_case/
+!backend/data/outputs/job_nepal_2026_case/*.geojson
+!backend/data/outputs/job_nepal_2026_case/*.json
+backend/data/outputs/job_nepal_2026_case/*summary*.json

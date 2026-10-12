@@ -191,3 +191,59 @@ def test_emsr927_remains_validation_only_in_pipeline():
     assert len(val_secs) > 0
     assert "EMSR927" in val_secs[0]["content"]
     assert "NOT used as an" in val_secs[0]["content"]
+
+
+def test_custom_aoi_parameter_propagation_and_isolation():
+    """
+    Verify that custom AOIs and dates:
+    1. Are correctly received by the pipeline.
+    2. Register separate jobs with their own IDs.
+    3. Retain the submitted AOI coordinates in job record and /layers/aoi.
+    4. Do not reuse stale/static results from the Nepal reference case.
+    """
+    custom_aoi = {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [86.95, 26.50],
+                [87.25, 26.50],
+                [87.25, 26.85],
+                [86.95, 26.85],
+                [86.95, 26.50],
+            ]
+        ],
+    }
+    req_payload = {
+        "aoi": custom_aoi,
+        "flood_date": "2026-08-15",
+        "comparison_date": "2026-08-22",
+        "report_language": "ne",
+        "demo_mode": True,
+        "pre_event_window_days": 10,
+        "post_event_window_days": 10,
+    }
+
+    # Run custom pipeline synchronously
+    resp = client.post("/analysis/run?sync=true", json=req_payload)
+    assert resp.status_code in [200, 202]
+    data = resp.json()
+
+    job_id = data["job_id"]
+    assert job_id.startswith("job_")
+    assert job_id != "job_nepal_2026_case"
+    assert data["flood_date"] == "2026-08-15"
+    assert data["report_language"] == "ne"
+
+    # Query AOI layer for this custom job
+    aoi_resp = client.get(f"/analysis/{job_id}/layers/aoi")
+    assert aoi_resp.status_code == 200
+    aoi_data = aoi_resp.json()
+    assert aoi_data["type"] == "FeatureCollection"
+    assert len(aoi_data["features"]) == 1
+    # Check that coordinates match the custom AOI, NOT default Nepal
+    coords = aoi_data["features"][0]["geometry"]["coordinates"][0]
+    assert coords[0][0] == 86.95
+    assert coords[0][1] == 26.50
+
+    # Verify that available layers include aoi
+    assert "aoi" in data["available_layers"]

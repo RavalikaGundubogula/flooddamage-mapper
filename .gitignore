@@ -51,3 +51,13 @@ backend/data/outputs/*
 !backend/data/outputs/job_nepal_2026_case/*.geojson
 !backend/data/outputs/job_nepal_2026_case/*.json
 backend/data/outputs/job_nepal_2026_case/*summary*.json
+
+# Media, Screen Recordings & Video Outputs
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.avi
+demo_output/
+scratch/
+

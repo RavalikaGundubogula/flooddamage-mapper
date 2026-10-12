@@ -87,6 +87,8 @@ class AnalysisReadyDataService:
         selection_resp = self.selector.select_scenes(
             aoi=resolved_aoi,
             flood_date=request.flood_date,
+            days_before=request.pre_event_window_days,
+            days_after=request.post_event_window_days,
         )
 
         s1_pair = selection_resp.sentinel_1_selection

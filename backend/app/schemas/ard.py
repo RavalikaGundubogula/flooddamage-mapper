@@ -47,3 +47,5 @@ class PrepareArdRequest(BaseModel):
     resolution_meters: float = Field(default=10.0, ge=1.0, le=100.0)
     speckle_filter_window: int = Field(default=3, ge=1, le=7)
     cloud_threshold_pct: float = Field(default=50.0, ge=0.0, le=100.0)
+    pre_event_window_days: int = Field(default=15, ge=1, le=60)
+    post_event_window_days: int = Field(default=7, ge=1, le=60)

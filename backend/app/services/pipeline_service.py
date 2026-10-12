@@ -295,6 +295,10 @@ class PipelineExecutionService:
             if "flood" not in layers:
                 layers.append("flood")
 
+        # AOI layer is available if job record, ARD manifest, or result exists
+        if self.repo.get_by_id(job_id) or (job_dir / "analysis_result.json").exists():
+            layers.insert(0, "aoi")
+
         return layers
 
     def get_layer_geojson(self, job_id: str, layer_name: str) -> Optional[Dict[str, Any]]:
@@ -455,6 +459,22 @@ class PipelineExecutionService:
         days_before = getattr(request, "pre_event_window_days", 15) or 15
         days_after = getattr(request, "post_event_window_days", 7) or 7
 
+        # Dynamically widen search windows if explicit reference/comparison dates are specified
+        try:
+            ev_dt = datetime.strptime(normalized_date, "%Y-%m-%d").date()
+            if getattr(request, "reference_date", None):
+                ref_dt = datetime.strptime(self._normalize_date_str(request.reference_date), "%Y-%m-%d").date()
+                diff_ref = (ev_dt - ref_dt).days
+                if diff_ref > 0:
+                    days_before = max(days_before, diff_ref + 2)
+            if getattr(request, "comparison_date", None):
+                comp_dt = datetime.strptime(self._normalize_date_str(request.comparison_date), "%Y-%m-%d").date()
+                diff_comp = (comp_dt - ev_dt).days
+                if diff_comp > 0:
+                    days_after = max(days_after, diff_comp + 2)
+        except Exception as e:
+            logger.debug("Date offset resolution note: %s", e)
+
         try:
             s1_discovery = self.sat_service.discover_sentinel_1(
                 aoi=resolved_aoi,
@@ -520,6 +540,8 @@ class PipelineExecutionService:
                 aoi=resolved_aoi,
                 flood_date=normalized_date,
                 job_id=job_id,
+                pre_event_window_days=days_before,
+                post_event_window_days=days_after,
             )
         )
 
@@ -774,21 +796,30 @@ class PipelineExecutionService:
             ) as dst:
                 dst.write(demo_mask, 1)
 
+        min_x, min_y, max_x, max_y = float(bounds[0]), float(bounds[1]), float(bounds[2]), float(bounds[3])
+        # Approximate geodesic area in km2 based on geographic bounding box
+        dx_km = abs(max_x - min_x) * 111.32 * np.cos(np.radians((min_y + max_y) / 2.0))
+        dy_km = abs(max_y - min_y) * 110.57
+        total_aoi_km2 = max(0.1, dx_km * dy_km)
+        # Synthetic demo flood is approximately 1.8% to 3.5% of total AOI
+        flood_fraction = 0.024
+        demo_flood_km2 = round(total_aoi_km2 * flood_fraction, 2)
+        demo_flood_m2 = round(demo_flood_km2 * 1_000_000, 1)
+
         summary = AffectedAreaSummary(
             total_valid_pixels=100000,
-            flood_pixel_count=1450,
-            flood_percentage=1.45,
-            flood_area_m2=14500000.0,
-            flood_area_sqkm=14.5,
+            flood_pixel_count=int(100000 * flood_fraction),
+            flood_percentage=round(flood_fraction * 100, 2),
+            flood_area_m2=demo_flood_m2,
+            flood_area_sqkm=demo_flood_km2,
         )
-        min_x, min_y, max_x, max_y = float(bounds[0]), float(bounds[1]), float(bounds[2]), float(bounds[3])
         poly_min_x = round(min_x + 0.3 * (max_x - min_x), 6)
         poly_max_x = round(min_x + 0.6 * (max_x - min_x), 6)
         poly_min_y = round(min_y + 0.3 * (max_y - min_y), 6)
         poly_max_y = round(min_y + 0.6 * (max_y - min_y), 6)
         demo_poly = {
             "type": "Feature",
-            "properties": {"name": "DEMO_FLOOD_EXTENT", "area_sqkm": 14.5},
+            "properties": {"name": "DEMO_FLOOD_EXTENT", "area_sqkm": demo_flood_km2},
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [

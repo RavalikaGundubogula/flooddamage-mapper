@@ -42,6 +42,14 @@ class PipelineRunRequest(BaseModel):
         False,
         description="If True, runs pipeline with pre-computed/synthetic demonstration layers for full UI visualization without CDSE credentials.",
     )
+    comparison_date: Optional[str] = Field(
+        None,
+        description="Optional explicit post-event comparison satellite date (YYYY-MM-DD). If omitted, search window is used.",
+    )
+    reference_date: Optional[str] = Field(
+        None,
+        description="Optional explicit pre-event reference baseline satellite date (YYYY-MM-DD).",
+    )
     pre_event_window_days: int = Field(
         15,
         description="Number of days prior to the flood event to search for baseline satellite imagery.",
